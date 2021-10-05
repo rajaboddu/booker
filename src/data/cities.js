@@ -1,7 +1,7 @@
 export const cities = [
   {
     id: 1,
-    name: Guntur,
+    name: "Guntur",
     theatres: [
       { id: 1, name: "Sai Lakshmi" },
       { id: 2, name: "Padma Priya" },
@@ -17,7 +17,7 @@ export const cities = [
   },
   {
     id: 2,
-    name: Eluru,
+    name: "Eluru",
     theatres: [
       { id: 1, name: "Sai Lakshmi" },
       { id: 2, name: "Padma Priya" },
@@ -31,7 +31,7 @@ export const cities = [
   },
   {
     id: 3,
-    name: Srikakulam,
+    name: "Srikakulam",
     theatres: [
       { id: 2, name: "Padma Priya" },
       { id: 3, name: "Sai Priya" },
@@ -45,7 +45,7 @@ export const cities = [
   },
   {
     id: 4,
-    name: Vishakapatnam,
+    name: "Vishakapatnam",
     theatres: [
       { id: 2, name: "Padma Priya" },
       { id: 3, name: "Sri Priya" },
@@ -58,7 +58,7 @@ export const cities = [
   },
   {
     id: 5,
-    name: Vizianagaram,
+    name: "Vizianagaram",
     theatres: [
       { id: 2, name: "Padma Priya" },
       { id: 3, name: "Leela Mahal" },
@@ -72,7 +72,7 @@ export const cities = [
   },
   {
     id: 6,
-    name: Kakinada,
+    name: "Kakinada",
     theatres: [
       { id: 1, name: "Sai Lakshmi" },
       { id: 2, name: "Padma Priya" },
@@ -87,7 +87,7 @@ export const cities = [
   },
   {
     id: 7,
-    name: Rajamundry,
+    name: "Rajamundry",
     theatres: [
       { id: 1, name: "Railway Mahal" },
       { id: 2, name: "Padma Priya" },
@@ -102,7 +102,7 @@ export const cities = [
   },
   {
     id: 8,
-    name: Ongole,
+    name: "Ongole",
     theatres: [
       { id: 1, name: "Sai Lakshmi" },
       { id: 2, name: "Padma Priya" },
@@ -117,7 +117,7 @@ export const cities = [
   },
   {
     id: 9,
-    name: Razole,
+    name: "Razole",
     theatres: [
       { id: 1, name: "Sai Lakshmi" },
       { id: 2, name: "Padma Priya" },
@@ -131,7 +131,7 @@ export const cities = [
   },
   {
     id: 10,
-    name: Vijayawada,
+    name: "Vijayawada",
     theatres: [
       { id: 1, name: "Sai Lakshmi" },
       { id: 2, name: "Padma Priya" },
@@ -146,7 +146,7 @@ export const cities = [
   },
   {
     id: 11,
-    name: Kurnool,
+    name: "Kurnool",
     theatres: [
       { id: 2, name: "Padma Priya" },
       { id: 3, name: "Sai Priya" },
@@ -160,7 +160,7 @@ export const cities = [
   },
   {
     id: 12,
-    name: Tuni,
+    name: "Tuni",
     theatres: [
       { id: 1, name: "Poorna" },
       { id: 2, name: "Padma Priya" },
@@ -176,7 +176,7 @@ export const cities = [
   },
   {
     id: 13,
-    name: Pithapuram,
+    name: "Pithapuram",
     theatres: [
       { id: 1, name: "Poorna" },
       { id: 2, name: "Padma Priya" },
@@ -192,7 +192,7 @@ export const cities = [
   },
   {
     id: 14,
-    name: Hyderabad,
+    name: "Hyderabad",
     theatres: [
       { id: 1, name: "Poorna" },
       { id: 2, name: "Padma Priya" },
@@ -208,7 +208,7 @@ export const cities = [
   },
   {
     id: 15,
-    name: Khamam,
+    name: "Khamam",
     theatres: [
       { id: 1, name: "Poorna" },
       { id: 2, name: "Padma Priya" },

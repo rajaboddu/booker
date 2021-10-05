@@ -1,7 +1,13 @@
 import React from "react";
+import Home from './Home'
+
 
 function App() {
-  return <div className="text-lg font-bold bg-[#8f1919] mt-[20px]">Booker</div>;
+  return (
+    <div>
+     <Home/>
+    </div>
+  );
 }
 
 export default App;

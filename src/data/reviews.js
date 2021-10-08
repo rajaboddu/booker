@@ -1,7 +1,6 @@
 import mastreoPic from "../assests/mastreo2.webp";
 import TjPic from "../assests/tj2.jpg";
 import pushpaPic from "../assests/pushpa2.webp";
-import lsPic from "../assests/ls1.jpg";
 import vbPic from "../assests/vb2.jpg";
 import ivnr from "../assests/ivnr3.jpg";
 

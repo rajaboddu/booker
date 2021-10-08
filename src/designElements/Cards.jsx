@@ -1,10 +1,8 @@
 import React from "react";
-import image from "../assests/event1.jpg";
 import image2 from "../assests/event2.jpg";
 import { Bookmark } from "../components/Icons";
 import { Like } from "../components/Icons";
 import { Share } from "../components/Icons";
-import movie from "../assests/godzilla.webp";
 
 export const StreamingCard = ({ pic, genre, title }) => {
   return (
@@ -39,13 +37,13 @@ export const StreamingCard = ({ pic, genre, title }) => {
   );
 };
 
-export const ReviewCard = () => {
+export const ReviewCard = ({ days, review, pic, likes }) => {
   return (
-    <div className="flex m-5 border-gray-400 border px-1">
+    <div className="flex m-5 border-gray-400 border px-1 flex-none max-w-xs">
       <div className="p-1.5 flex-none">
         <img
           className="object-cover w-24 h-24 rounded-xl"
-          src={image}
+          src={pic}
           alt="notfound"
         />
       </div>
@@ -53,21 +51,16 @@ export const ReviewCard = () => {
         <div>
           <Bookmark />
 
-          <p className="line-clamp-2">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
-            voluptas possimus quasi explicabo nulla fugit modi, consequatur quas
-            ipsa velit magni, vel perferendis sunt in tenetur, et nobis id.
-            Aspernatur!
-          </p>
+          <p className="line-clamp-2">{review}</p>
         </div>
         <div className="flex justify-between">
           <div className="flex items-center justify-around">
             <img className="rounded-full w-8 h-8" src={image2} alt="notfound" />
-            <p>8 days ago</p>
+            <p>{days} days ago</p>
           </div>
           <div className="flex items-center justify-around">
             <Like />
-            <p>168</p>
+            <p>{likes}</p>
             <Share />
           </div>
         </div>
@@ -76,13 +69,13 @@ export const ReviewCard = () => {
   );
 };
 
-export const MovieCard = () => {
+export const MovieCard = ({ name, rating, pic }) => {
   return (
-    <div className="w-40 h-[17rem] rounded-lg overflow-hidden bg-green-500">
-      <img src={movie} className="h-[15.5rem] object-full" alt="movie" />
+    <div className="w-40 rounded-lg overflow-hidden flex-none ml-2">
+      <img src={pic} className="h-[15.5rem] object-full" alt={name} />
       <div className="flex justify-center items-center bg-gray-900">
         <Like />
-        <p className="text-white">75%</p>
+        <p className="text-white">{rating}%</p>
       </div>
     </div>
   );
@@ -102,6 +95,23 @@ export const PopularCard = ({ image, buttonText, classValue }) => {
       >
         Book Now
       </button>
+    </div>
+  );
+};
+
+export const EventCard = ({ pic, type, name, date }) => {
+  return (
+    <div className="w-40  flex-none ml-2">
+      <div className="rounded-lg overflow-hidden">
+        <img src={pic} className="h-[15.5rem] object-full" alt="movie" />
+        <div className="flex items-center bg-gray-900">
+          <p className="text-white ml-2">{date}</p>
+        </div>
+      </div>
+      <div>
+        <p className="line-clamp-1 font-medium text-xl">{name}</p>
+        <p className="text-base font-light">{type}</p>
+      </div>
     </div>
   );
 };

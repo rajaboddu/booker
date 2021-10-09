@@ -11,7 +11,6 @@ import {
 import Movies from "./components/Movies";
 import Popular from "./components/Popular";
 import Streaming from "./components/Streaming";
-import popcorn from "./assests/popcorn.jpg";
 
 const Home = () => {
   return (

@@ -28,7 +28,7 @@ export const StreamingCard = ({ pic, genre, title }) => {
         </div>
       </div>
       <button
-        className="bg-red-500 text-lg text-white my-2
+        className="bg-red-500 text-lg text-white mb-8
        mx-4 rounded-sm py-1 font-normal"
       >
         Buy or Rent
@@ -39,7 +39,7 @@ export const StreamingCard = ({ pic, genre, title }) => {
 
 export const ReviewCard = ({ days, review, pic, likes }) => {
   return (
-    <div className="flex m-5 border-gray-400 border px-1 flex-none max-w-xs">
+    <div className="flex border-gray-400 border px-1 flex-none max-w-sm m-auto">
       <div className="p-1.5 flex-none">
         <img
           className="object-cover w-24 h-24 rounded-xl"
@@ -54,7 +54,7 @@ export const ReviewCard = ({ days, review, pic, likes }) => {
           <p className="line-clamp-2">{review}</p>
         </div>
         <div className="flex justify-between">
-          <div className="flex items-center justify-around">
+          <div className="flex items-center justify-around space-x-1">
             <img className="rounded-full w-8 h-8" src={image2} alt="notfound" />
             <p>{days} days ago</p>
           </div>

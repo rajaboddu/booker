@@ -14,7 +14,7 @@ const ButtonSlider = ({ children, data, width }) => {
     <div className="relative">
       <button
         className="absolute top-[35%] left-0 bg-gray-800 text-white
-        text-xl text-center font-semibold w-12 h-12 rounded-full opacity-75
+        text-lg font-semibold w-8 h-8 rounded-full opacity-75 flex justify-center items-center
         transistion duration-200 hover:opacity-100"
         onClick={() => handleMargin("left")}
       >
@@ -26,7 +26,7 @@ const ButtonSlider = ({ children, data, width }) => {
       </div>
       <button
         className="absolute top-[35%] right-0 bg-gray-800 text-white
-        text-xl text-center font-semibold w-12 h-12 rounded-full opacity-75
+        text-lg text-center font-semibold w-8 h-8 rounded-full opacity-75 flex justify-center items-center
         transistion duration-200 hover:opacity-100"
         onClick={() => handleMargin("right")}
       >
